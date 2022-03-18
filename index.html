@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Čats</title>
+        <link href="style.css" rel="stylesheet" />
+        
+    </head>
+    <body>
+        <div class="wrapper"> <!--var būt container, turetajs-->
+            
+            <div class="chataZinas"><!--ja nosaukuma divi vardi, lietojam camelCase, nākamo vārdu rakstot ar lielo burtu. Neattiecas uz failu nosaukumiem, tajos neizmantot lielos burtus.-->
+                <!--Šeit būs čata ziņas...
+                <br /><br /><br /><br /><br /><br /><br /><br />
+                <br /><br /><br /><br /><br /><br /><br /><br />
+                Čata beigas-->
+            </div><!--beidzas chataZinas-->
+
+            Vārds: <input class="vards" /><!--var lietot id, class izmanto elementiem, kuri daudz reizes atkārtojas, id unikāliem-->
+            Ziņa: <input class="manaZina" /><!--Nosaukumiem jābūt sistemātikai-->
+            <input type="button" value="Sūtīt" onclick="sutitZinu()" />
+    
+        </div><!--beidzas wrapper-->
+    </body>
+    <script src="script.js"></script>
+</html>
