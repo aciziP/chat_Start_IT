@@ -1,4 +1,5 @@
 
+const API = "https://chat.viktorijapizica.repl.co"
 let manaZina = document.querySelector('.manaZina');//Jāraksta nosaukums cs stilā
 //reference atsauce uz svaigāko ziņu (jo bez .value)
 let chataZinas = document.querySelector('.chataZinas')
